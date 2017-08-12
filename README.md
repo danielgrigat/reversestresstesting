@@ -7,7 +7,7 @@ Code implemented in MATLAB.
 
 0. Function to load data from .xlsx file is import_stoxx1.m
 
-1. Function to construct STOXX network, i.e. the RAS algorithm: fitness_weights.m
+1. Function to construct STOXX network, i.e. the RAS algorithm: fitness_weights.m<br />
 	requires fitness_model_param.m to fit the density parameter.
 
 2. Main function for framework is: reverse_fun1_SREP.m.<br />For example to run the framework for the full year 2015, with \lambda max in the range from 0.1 to 1 insteps of 0.1, for targeted losses = 1, time horizon = 20 enter:
